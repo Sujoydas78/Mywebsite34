@@ -1,0 +1,170 @@
+[data-theme="dark"] {
+  background-color: #1D2A35 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] nav {
+  background-color: #000000 !important;
+}
+
+/*== site bar ==*/
+
+[data-theme="dark"] .offcanvas-header {
+  background-color: #1a1a1a !important;
+}
+
+[data-theme="dark"] #offcanvasExample {
+  background-color: #243442 !important;
+}
+
+[data-theme="dark"] .sidebar ul {
+  background-color: #2d4152 !important;
+}
+
+[data-theme="dark"] .sidebar ul a{
+  background-color: #1D2A35 !important;
+}
+
+[data-theme="dark"] .sidebar ul a i {
+  color: white !important;
+}
+
+[data-theme="dark"] .sidebar li a span {
+  color: white !important;
+}
+
+[data-theme="dark"] .controlsb {
+  background-color: #2d4152 !important;
+}
+
+[data-theme="dark"] .control-label i {
+  color: white !important;
+}
+
+[data-theme="dark"] .footer-site {
+  background-color: #2d4152 !important;
+}
+
+[data-theme="dark"] .footer-site i {
+  color: white !important;
+}
+
+/*== services ==*/
+
+[data-theme="dark"] .services {
+  background-color: #243442 !important;
+}
+
+[data-theme="dark"] .card-body {
+  background-color: #1D2A35 !important;
+}
+
+[data-theme="dark"] .skills {
+  background-color: #1D2A35 !important;
+  
+}
+
+[data-theme="dark"] .skill-name {
+  color: white;
+}
+
+/*== contact ==*/
+
+[data-theme="dark"] .contact ul li a {
+  color: white;
+}
+
+/*=== checkbox ===*/
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  position: relative;
+  width: 30px;
+  height: 17px;
+  border-radius: 30px;
+  outline: none;
+  background-color: #ddd;
+}
+
+input[type="checkbox"]::before{
+  content: "\f185";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 13px;
+  width: 13px;
+  background-color: #6f42c1;
+  border-radius: 50px;
+  font-family: "Font Awesome 5 Free";
+  font-size: 8px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffcc00;
+  transition: 0.4s;
+}
+
+input[type="checkbox"]:checked:before{
+  content: "\f186";
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  background-color: #1D2A35;
+  transform: translate(100%)
+}
+
+.custom-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-control-label{
+  padding: 1px 0px 0px 3px;
+  color: white;
+}
+
+/* === sidebar dark mode === */
+
+.controlsb{
+  background-color: white;
+  margin: 15px;
+  height: 40px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.control-label{
+  padding: 1px 0px 0px 3px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-label i{
+  font-size: 25px;
+  margin-left: 25px;
+  color: #404040;
+}
+
+.control-label span{
+  font-size: 17px;
+  margin: 15px;
+}
